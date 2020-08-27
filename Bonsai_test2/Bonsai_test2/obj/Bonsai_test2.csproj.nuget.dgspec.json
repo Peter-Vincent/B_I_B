@@ -1,0 +1,97 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\Bonsai_test2.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\Bonsai_test2.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\Bonsai_test2.csproj",
+        "projectName": "Bonsai_test2",
+        "projectPath": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\Bonsai_test2.csproj",
+        "packagesPath": "C:\\Users\\Murri\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Murri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Users\\Murri\\Documents\\MTurk\\Packages": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.1": {
+          "dependencies": {
+            "Bonsai.Audio": {
+              "target": "Package",
+              "version": "[3.0.0-alpha1, )"
+            },
+            "Bonsai.Core": {
+              "target": "Package",
+              "version": "[3.0.0-alpha1, )"
+            },
+            "Bonsai.Dsp": {
+              "target": "Package",
+              "version": "[3.0.0-alpha1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.Build": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.2.1, )"
+            },
+            "Microsoft.AspNetCore.Http.Abstractions": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[3.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

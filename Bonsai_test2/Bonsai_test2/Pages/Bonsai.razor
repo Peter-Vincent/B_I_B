@@ -1,0 +1,41 @@
+﻿@page "/bonsai"
+
+<h3>Bonsai (@clean_execute)</h3>
+<button @onclick="launch_protocol">Launch protocol</button>
+<button @onclick="class_test">Test class</button>
+<button @onclick="bonsai_test">Test Bonsai</button>
+
+<h4>Value counter -- @value</h4>
+@code {
+    private string clean_execute = "null";
+    private bool running = false;
+    private void launch_protocol()
+    {
+        running = clean_execute.Equals("null");
+        if (running)
+        {
+            clean_execute = "running";
+        }
+        else
+        {
+            clean_execute = "null";
+        }
+
+    }
+
+    private int value;
+    Bonsai_func testc = new Bonsai_func();
+    private void class_test()
+    {
+        //testc.Change_val();
+        value = testc.value;
+    }
+    private void bonsai_test()
+    {
+        testc.Launch();
+        value = testc.value;
+    }
+}
+
+// Try and find someway of inputting the bonsai data here
+
