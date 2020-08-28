@@ -18,7 +18,6 @@ else
                 <th>Temp. (C)</th>
                 <th>Temp. (F)</th>
                 <th>Summary</th>
-                <th>Bonsai_xml</th>
             </tr>
         </thead>
         <tbody>
@@ -29,7 +28,6 @@ else
                     <td>@forecast.TemperatureC</td>
                     <td>@forecast.TemperatureF</td>
                     <td>@forecast.Summary</td>
-                    <td>@forecast.Bonsai_xml</td>
                 </tr>
             }
         </tbody>
@@ -51,8 +49,6 @@ else
         public int TemperatureC { get; set; }
 
         public string Summary { get; set; }
-
-        public string Bonsai_xml { get; set; }
 
         public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
     }

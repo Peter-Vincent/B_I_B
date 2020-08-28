@@ -1,41 +1,78 @@
 ﻿@page "/bonsai"
+@inject HttpClient Http
 
 <h3>Bonsai (@clean_execute)</h3>
 <button @onclick="launch_protocol">Launch protocol</button>
 <button @onclick="class_test">Test class</button>
 <button @onclick="bonsai_test">Test Bonsai</button>
-
 <h4>Value counter -- @value</h4>
-@code {
-    private string clean_execute = "null";
-    private bool running = false;
-    private void launch_protocol()
-    {
-        running = clean_execute.Equals("null");
-        if (running)
-        {
-            clean_execute = "running";
-        }
-        else
-        {
-            clean_execute = "null";
-        }
 
-    }
-
-    private int value;
-    Bonsai_func testc = new Bonsai_func();
-    private void class_test()
-    {
-        //testc.Change_val();
-        value = testc.value;
-    }
-    private void bonsai_test()
-    {
-        testc.Launch();
-        value = testc.value;
-    }
+@if (forecasts == null)
+{
+    <p><em>Loading...</em></p>
 }
+else
+{
+    <p>@forecasts[0].Summary</p>
+    <p>@xml_data.data</p>
+}
+    
+    @code {
+        private string clean_execute = "null";
+        private bool running = false;
+        private void launch_protocol()
+        {
+            running = clean_execute.Equals("null");
+            if (running)
+            {
+                clean_execute = "running";
+            }
+            else
+            {
+                clean_execute = "null";
+            }
 
-// Try and find someway of inputting the bonsai data here
+        }
+
+        private int value;
+        Bonsai_func testc = new Bonsai_func();
+        private void class_test()
+        {
+            //testc.Change_val();
+            value = testc.value;
+        }
+        private void bonsai_test()
+        {
+            testc.Launch();
+            value = testc.value;
+        }
+
+        private WeatherForecast[] forecasts;
+        
+
+        protected override async Task OnInitializedAsync()
+        {
+            xml_data.data = await Http.GetStringAsync("Bonsai_files/trial.bonsai");
+            forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+        }
+
+        public class WeatherForecast
+        {
+            public DateTime Date { get; set; }
+
+            public int TemperatureC { get; set; }
+
+            public string Summary { get; set; }
+
+            public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
+
+        }
+
+        public class xml_data
+        {
+            public static string data { get; set; }
+        }
+
+    }
+
 

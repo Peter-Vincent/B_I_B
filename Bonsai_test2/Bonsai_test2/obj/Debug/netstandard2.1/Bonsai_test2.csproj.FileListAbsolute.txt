@@ -809,6 +809,6 @@ C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\staticwebassets\Bonsai_test2.StaticWebAssets.xml
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Bonsai_test2.dll
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Bonsai_test2.pdb
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\avtkVrNFzgL_Vjncjna06V_mNZKERe7XcRV_u1Zavt8=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\pdPLHEPXWQidMjKZQx-mHGdKeX4bKSG9OqsgqtLODYE=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\DR3EYz0XCEHkGLwdbZhKkvS2V9zGN9bo1JkEz_EUiJc=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\zJ6zZ5u9DTe9RCunoRxPntE96Z9eWrH_4PSBz_7WcIk=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\8zVJc2pN6T11rLLTDajtO-rU90qw1FcoKXclcMioSug=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\q8hTitPFDu8SGrimX4c31dTo7EQ2PQXTCj77VbOiUPg=.hash

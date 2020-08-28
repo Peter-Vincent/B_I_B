@@ -12,6 +12,7 @@
     "bonsai_xml": "test1"
   },
   {
+    "extra": "testing",
     "date": "2018-05-08",
     "temperatureC": -13,
     "summary": "Freezing",
