@@ -615,7 +615,6 @@ C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Bonsai_test2.RazorTargetAssemblyInfo.cache
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Bonsai_test2.csproj.CopyComplete
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\blazor\unlinked.output
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\mTmGzXvaYjFtj3JZF_JPFSaavnr7LMwMvo2FPe8AR8s=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\99dseBOagY3mzu5Y8Eqm8gRI_o8QbbCp7R2Ew9bQ_5E=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\ZxXy75PYbzJxNfAc-SAP1nUYm4gt1jSaOpFnBb9m85M=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\BaZPMj95_YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=.hash
@@ -673,13 +672,11 @@ C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\yTznKFXYjwtGYUGUdxYEw8gA1A_IWlMYOncOmAAyJas=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\4A297N6Xf0UZNMTrY_4COe43Hmcrtxb-eTiqTJ5M6wA=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\FwTliQ0DZdjsM2pGhbBJ8_N11S-RuTn8r3AcBpSaWfI=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\tliCXxIkCkELek9QqILSLRw1VgDYCN0VNgmPKO_t-9k=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\3S0qzYaBEKOBXarzVLNzNAFXlwJr6nI3lFlYUpQTPH8=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\UC-3Rm1NkdNdlIrzYARo_dO-HDlS5mhPxo0IQv7kma8=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\SPHS1EAPAcMFN4TEIUYl3FWtoCQTsNJch0XVGgok1eE=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\blazor\blazor.boot.json
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\U0fHxth_pRfSvaEGmOol3tR__3JuXT2eQCMLHG1AUzs=.hash
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\Bonsai_test2.dll.gz
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Net.Http.Json.dll.gz
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Buffers.dll.gz
@@ -812,3 +809,6 @@ C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\staticwebassets\Bonsai_test2.StaticWebAssets.xml
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Bonsai_test2.dll
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Bonsai_test2.pdb
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\avtkVrNFzgL_Vjncjna06V_mNZKERe7XcRV_u1Zavt8=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\pdPLHEPXWQidMjKZQx-mHGdKeX4bKSG9OqsgqtLODYE=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\DR3EYz0XCEHkGLwdbZhKkvS2V9zGN9bo1JkEz_EUiJc=.hash

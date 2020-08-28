@@ -2,26 +2,31 @@
   {
     "date": "2018-05-06",
     "temperatureC": 1,
-    "summary": "Freezing"
+    "summary": "Freezing",
+    "bonsai_xml": "test1"
   },
   {
     "date": "2018-05-07",
     "temperatureC": 14,
-    "summary": "Bracing"
+    "summary": "Bracing",
+    "bonsai_xml": "test1"
   },
   {
     "date": "2018-05-08",
     "temperatureC": -13,
-    "summary": "Freezing"
+    "summary": "Freezing",
+    "bonsai_xml": "test1"
   },
   {
     "date": "2018-05-09",
     "temperatureC": -16,
-    "summary": "Balmy"
+    "summary": "Balmy-xxx",
+    "bonsai_xml": "test1"
   },
   {
     "date": "2018-05-10",
     "temperatureC": -2,
-    "summary": "Chilly"
+    "summary": "Chilly",
+    "bonsai_xml": "test1"
   }
 ]

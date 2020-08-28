@@ -17,6 +17,10 @@ using System.Threading.Tasks;
 
 namespace Bonsai_test2
 {
+    public class Bonsai_code
+    {
+        public string Summary { get; set; }
+    }
     public class Bonsai_func
     {
         public int value = 0;
@@ -25,27 +29,26 @@ namespace Bonsai_test2
         {
             value++;
         }
-
+        public Bonsai_code[] bonsai_Codes;
         public void Launch()
         {
 
-            HttpClient Http = new HttpClient();
-            /*
 
-            var fileName = "~/Bonsai_files/trial.bonsai";
+            /*
+            var fileName = "Bonsai_files/trial.bonsai"; 
             if (!File.Exists(fileName))
             {
                 throw new ArgumentException("Specified workflow file does not exist.");
             }
             */
-            
+
             WorkflowBuilder workflowBuilder = new WorkflowBuilder();
             //var audio = workflowBuilder.Workflow.Add(new CombinatorBuilder { Combinator = new ScalarBuffer { Size = new Size(10,10) } });
             var timer = workflowBuilder.Workflow.Add(new CombinatorBuilder { Combinator = new Timer { Period = TimeSpan.FromSeconds(1) } });
             var output = workflowBuilder.Workflow.Add(new WorkflowOutputBuilder());
             workflowBuilder.Workflow.AddEdge(timer, output, new ExpressionBuilderArgument());
             var workflow =  workflowBuilder.Workflow.Build();
-            var observable = Expression.Lambda<Func<IObservable<float>>>(workflow).Compile();
+            var observable = Expression.Lambda<Func<IObservable<Int64>>>(workflow).Compile();
             observable().Subscribe(x => value = (int)x);
             value += 42;
             /*
