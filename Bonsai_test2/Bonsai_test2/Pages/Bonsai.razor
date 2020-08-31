@@ -7,13 +7,12 @@
 <button @onclick="bonsai_test">Test Bonsai</button>
 <h4>Value counter -- @value</h4>
 
-@if (forecasts == null)
+@if (xml_data.data == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
-    <p>@forecasts[0].Summary</p>
     <p>@xml_data.data</p>
 }
     
@@ -43,30 +42,16 @@ else
         }
         private void bonsai_test()
         {
-            testc.Launch();
+            testc.Launch(xml_data.data);
             value = testc.value;
         }
 
-        private WeatherForecast[] forecasts;
-        
 
         protected override async Task OnInitializedAsync()
         {
-            xml_data.data = await Http.GetStringAsync("Bonsai_files/trial.bonsai");
-            forecasts = await Http.GetFromJsonAsync<WeatherForecast[]>("sample-data/weather.json");
+            xml_data.data = await Http.GetStringAsync("Bonsai_files/timer.bonsai");
         }
 
-        public class WeatherForecast
-        {
-            public DateTime Date { get; set; }
-
-            public int TemperatureC { get; set; }
-
-            public string Summary { get; set; }
-
-            public int TemperatureF => 32 + (int)(TemperatureC / 0.5556);
-
-        }
 
         public class xml_data
         {

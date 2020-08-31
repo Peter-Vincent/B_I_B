@@ -13,7 +13,7 @@ using System.Linq.Expressions;
 using System.Reflection;
 using System.Resources;
 using System.Threading.Tasks;
-
+using System.Xml;
 
 namespace Bonsai_test2
 {
@@ -30,7 +30,7 @@ namespace Bonsai_test2
             value++;
         }
         public Bonsai_code[] bonsai_Codes;
-        public void Launch()
+        public void Launch(string data)
         {
 
 
@@ -40,23 +40,26 @@ namespace Bonsai_test2
             {
                 throw new ArgumentException("Specified workflow file does not exist.");
             }
-            */
-
-            WorkflowBuilder workflowBuilder = new WorkflowBuilder();
+            
+            
             //var audio = workflowBuilder.Workflow.Add(new CombinatorBuilder { Combinator = new ScalarBuffer { Size = new Size(10,10) } });
             var timer = workflowBuilder.Workflow.Add(new CombinatorBuilder { Combinator = new Timer { Period = TimeSpan.FromSeconds(1) } });
             var output = workflowBuilder.Workflow.Add(new WorkflowOutputBuilder());
+
             workflowBuilder.Workflow.AddEdge(timer, output, new ExpressionBuilderArgument());
+            */
+            WorkflowBuilder workflowBuilder = new WorkflowBuilder();
+            using (var reader = XmlReader.Create(new StringReader(data)))
+
+            {
+                workflowBuilder = (WorkflowBuilder)WorkflowBuilder.Serializer.Deserialize(reader);
+            }
             var workflow =  workflowBuilder.Workflow.Build();
             var observable = Expression.Lambda<Func<IObservable<Int64>>>(workflow).Compile();
             observable().Subscribe(x => value = (int)x);
             value += 42;
             /*
-            ConfigurationHelper.SetAssemblyResolve();
-            using (var reader = XmlReader.Create(fileName))
-            {
-                workflowBuilder = (WorkflowBuilder)WorkflowBuilder.Serializer.Deserialize(reader);
-            }
+            
 
             var workflowCompleted = new ManualResetEvent(false);
             workflowBuilder.Workflow.BuildObservable().Subscribe(
