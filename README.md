@@ -20,9 +20,10 @@ Project to get Bonsai running in the browser, client side, using BlazorWASM.
 ## To work on
 * Get an interface working to access the hardware.  
   * Couple of different ways of doing this, some links below
-    * [Keyboard events without input tags](https://stackoverflow.com/questions/58920461/how-to-detect-key-press-without-using-an-input-tag-in-blazor)
-    * [Blazor event handling](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-3.1)
-    * [More keyboard events](https://www.syncfusion.com/faq/blazor/event-handling/how-to-capture-input-keyboard-events)
+    * [~~Keyboard events without input tags~~](https://stackoverflow.com/questions/58920461/how-to-detect-key-press-without-using-an-input-tag-in-blazor)
+    * [~~Blazor event handling~~](https://docs.microsoft.com/en-us/aspnet/core/blazor/components/event-handling?view=aspnetcore-3.1)
+    * [~~More keyboard events~~](https://www.syncfusion.com/faq/blazor/event-handling/how-to-capture-input-keyboard-events)
+  * It should be possible to use RxC# to get key presses and so on... 
 
 ### For consideration
 For running the hardware interface, do we 
