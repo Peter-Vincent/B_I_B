@@ -1,7 +1,7 @@
 {
   "FilesToCompress": [
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\kU5y1qebHYzUD4wnP2si-8jYhWrn4QOmrn4COuBD4W4=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\dCqRhdK7qG3bpbCWSWeg7pYjLoCdsfY5OkFDjvp0s1w=.hash",
       "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Bonsai_test2.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Bonsai_test2.dll.br"
     },
@@ -201,6 +201,31 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Runtime.InteropServices.WindowsRuntime.dll.br"
     },
     {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vlGQFJZ_oEQbTpNirDStPM0ges86AcRx6e8-WUvcgDI=.hash",
+      "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Bonsai.Windows.Input.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Bonsai.Windows.Input.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\5c6cnZnbjG0JvBeHQOLRG1b_uAp3Je72t38XrWMYREs=.hash",
+      "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Bonsai.Core.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Bonsai.Core.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\yTznKFXYjwtGYUGUdxYEw8gA1A_IWlMYOncOmAAyJas=.hash",
+      "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.ILGeneration.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.ILGeneration.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4A297N6Xf0UZNMTrY_4COe43Hmcrtxb-eTiqTJ5M6wA=.hash",
+      "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.dll.br"
+    },
+    {
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FwTliQ0DZdjsM2pGhbBJ8_N11S-RuTn8r3AcBpSaWfI=.hash",
+      "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.CodeDom.dll",
+      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.CodeDom.dll.br"
+    },
+    {
       "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FJ_rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=.hash",
       "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Microsoft.AspNetCore.Components.WebAssembly.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.AspNetCore.Components.WebAssembly.dll.br"
@@ -271,27 +296,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Microsoft.JSInterop.WebAssembly.dll.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\MJy9XZBA0m8ms5f3YkJI0OY6zeL0J8NI5-uhs0WugQw=.hash",
-      "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Bonsai.Core.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Bonsai.Core.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\yTznKFXYjwtGYUGUdxYEw8gA1A_IWlMYOncOmAAyJas=.hash",
-      "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.ILGeneration.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.ILGeneration.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\4A297N6Xf0UZNMTrY_4COe43Hmcrtxb-eTiqTJ5M6wA=.hash",
-      "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.Reflection.Emit.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.Reflection.Emit.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\FwTliQ0DZdjsM2pGhbBJ8_N11S-RuTn8r3AcBpSaWfI=.hash",
-      "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\System.CodeDom.dll",
-      "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.CodeDom.dll.br"
-    },
-    {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vWkjZWRW0GG9KKCj-THsJLruSA-Q4V7YydRgoV2ZUM8=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\PZwipuBERw8isXgX-RxCkttxmYpZr6sGmjletBa_qMk=.hash",
       "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Bonsai_test2.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Bonsai_test2.pdb.br"
     },
@@ -316,7 +321,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.br"
     },
     {
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\IBhJaxwROLJbTwHuneepAI7reM8roXPOnm41WOT0Bsg=.hash",
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\KA2TwqrSXLkV9ZvqsY7jB-yoUx0TJMg7L32s9Gh6bH8=.hash",
       "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.br"
     }

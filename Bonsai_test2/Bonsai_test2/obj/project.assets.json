@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     ".NETStandard,Version=v2.1": {
-      "Bonsai.Audio/3.0.0-alpha1": {
+      "Bonsai.Audio/3.0.0-preview1-alpha1": {
         "type": "package",
         "dependencies": {
-          "Bonsai.System": "3.0.0-alpha1",
+          "Bonsai.System": "3.0.0-preview1-alpha1",
           "OpenCV.Net": "3.3.1",
           "OpenTK": "3.1.0",
           "openal.redist": "2.0.7"
@@ -17,7 +17,7 @@
           "lib/netstandard2.0/Bonsai.Audio.dll": {}
         }
       },
-      "Bonsai.Core/3.0.0-alpha1": {
+      "Bonsai.Core/3.0.0-preview1-alpha1": {
         "type": "package",
         "dependencies": {
           "System.CodeDom": "4.7.0",
@@ -31,10 +31,10 @@
           "lib/netstandard2.0/Bonsai.Core.dll": {}
         }
       },
-      "Bonsai.Dsp/3.0.0-alpha1": {
+      "Bonsai.Dsp/3.0.0-preview1-alpha1": {
         "type": "package",
         "dependencies": {
-          "Bonsai.System": "3.0.0-alpha1",
+          "Bonsai.System": "3.0.0-preview1-alpha1",
           "OpenCV.Net": "3.3.1"
         },
         "compile": {
@@ -44,10 +44,10 @@
           "lib/netstandard2.0/Bonsai.Dsp.dll": {}
         }
       },
-      "Bonsai.System/3.0.0-alpha1": {
+      "Bonsai.System/3.0.0-preview1-alpha1": {
         "type": "package",
         "dependencies": {
-          "Bonsai.Core": "3.0.0-alpha1",
+          "Bonsai.Core": "3.0.0-preview1-alpha1",
           "System.IO.Ports": "4.7.0"
         },
         "compile": {
@@ -55,6 +55,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Bonsai.System.dll": {}
+        }
+      },
+      "Bonsai.Windows.Input/3.0.0-preview1": {
+        "type": "package",
+        "compile": {
+          "lib/net472/Bonsai.Windows.Input.dll": {}
+        },
+        "runtime": {
+          "lib/net472/Bonsai.Windows.Input.dll": {}
         }
       },
       "Microsoft.AspNetCore.Authorization/3.1.6": {
@@ -739,52 +748,72 @@
         "runtime": {
           "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
+      },
+      "System.Windows.Forms/4.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/System.Windows.Forms.dll": {}
+        },
+        "runtime": {
+          "lib/System.Windows.Forms.dll": {}
+        }
       }
     }
   },
   "libraries": {
-    "Bonsai.Audio/3.0.0-alpha1": {
-      "sha512": "fyZRARpKxS2a6NET4TSO7hfHlgoAVjvyxgDocKYAdlDj4OxXsGMjzD6srA2jlwWey89I9w7oa1dz9OalkL5E2Q==",
+    "Bonsai.Audio/3.0.0-preview1-alpha1": {
+      "sha512": "U8ibbrQWO1uPoTCsVaa8mxuImJE9O+20BHLciA0lpXtRRGvqNYDuNnh2NtpMVQPlppmsnXAW5WgP3VXlwsaO0Q==",
       "type": "package",
-      "path": "bonsai.audio/3.0.0-alpha1",
+      "path": "bonsai.audio/3.0.0-preview1-alpha1",
       "files": [
         ".nupkg.metadata",
-        "bonsai.audio.3.0.0-alpha1.nupkg.sha512",
+        "bonsai.audio.3.0.0-preview1-alpha1.nupkg.sha512",
         "bonsai.audio.nuspec",
         "lib/netstandard2.0/Bonsai.Audio.dll"
       ]
     },
-    "Bonsai.Core/3.0.0-alpha1": {
-      "sha512": "DuPugEQX4Viekn4cjTejsk73JmK+BeWi5h41N8jlRYSSccjbt35qIrrpv3YlFNlqjG1I2XWZxUKzMiHNQsCkAw==",
+    "Bonsai.Core/3.0.0-preview1-alpha1": {
+      "sha512": "1lLN87nG9qJHjbbvJZr7hgWhyf/Q1vsimK1yQElvgzKwUatO4+rG8ynYlp5dba4YIRmb0t0GMFuUgMhyP0M3Wg==",
       "type": "package",
-      "path": "bonsai.core/3.0.0-alpha1",
+      "path": "bonsai.core/3.0.0-preview1-alpha1",
       "files": [
         ".nupkg.metadata",
-        "bonsai.core.3.0.0-alpha1.nupkg.sha512",
+        "bonsai.core.3.0.0-preview1-alpha1.nupkg.sha512",
         "bonsai.core.nuspec",
         "lib/netstandard2.0/Bonsai.Core.dll"
       ]
     },
-    "Bonsai.Dsp/3.0.0-alpha1": {
-      "sha512": "wu/P/aWBlZVLvCD5+xebcPywI9cUQu7HBBKZVWK79P/h3E8RN7DuILbfq5rUXwRhz6dZhdJ/MNCn2jZE4Zbslw==",
+    "Bonsai.Dsp/3.0.0-preview1-alpha1": {
+      "sha512": "fE6+rC+lwGFVmXCui+nxh+FtuP4HAVGww/POXq08BiKmMVUY3zrRgexY/+jcATBL/UOcT8RkLIDNVs/3bQSSAQ==",
       "type": "package",
-      "path": "bonsai.dsp/3.0.0-alpha1",
+      "path": "bonsai.dsp/3.0.0-preview1-alpha1",
       "files": [
         ".nupkg.metadata",
-        "bonsai.dsp.3.0.0-alpha1.nupkg.sha512",
+        "bonsai.dsp.3.0.0-preview1-alpha1.nupkg.sha512",
         "bonsai.dsp.nuspec",
         "lib/netstandard2.0/Bonsai.Dsp.dll"
       ]
     },
-    "Bonsai.System/3.0.0-alpha1": {
-      "sha512": "cJSRS8IBY6QQyZom8yaGK0pOWgZe6ho7phX5tClYsSp0TO7BtoTTsrZPWJQ8lZgeWFinfhlLovxjyxvQH+Tc7w==",
+    "Bonsai.System/3.0.0-preview1-alpha1": {
+      "sha512": "E4ZmGioNcjVx6wbl0uUzs9Jzh2m1Tno6H1MeRpyRbYDC3aWPQyL+M51Enhs74RRz64Mpa53JtWItd0aZYdAeqQ==",
       "type": "package",
-      "path": "bonsai.system/3.0.0-alpha1",
+      "path": "bonsai.system/3.0.0-preview1-alpha1",
       "files": [
         ".nupkg.metadata",
-        "bonsai.system.3.0.0-alpha1.nupkg.sha512",
+        "bonsai.system.3.0.0-preview1-alpha1.nupkg.sha512",
         "bonsai.system.nuspec",
         "lib/netstandard2.0/Bonsai.System.dll"
+      ]
+    },
+    "Bonsai.Windows.Input/3.0.0-preview1": {
+      "sha512": "+bZpCPxFHOR0p9JsOGHdn0uzMWJR/JDoOnJTFfXQSFwL3CQMSFqSnhXUnjswGOjMfnBJCTD1OJBKYcbJtBXVig==",
+      "type": "package",
+      "path": "bonsai.windows.input/3.0.0-preview1",
+      "files": [
+        ".nupkg.metadata",
+        "bonsai.windows.input.3.0.0-preview1.nupkg.sha512",
+        "bonsai.windows.input.nuspec",
+        "lib/net472/Bonsai.Windows.Input.dll"
       ]
     },
     "Microsoft.AspNetCore.Authorization/3.1.6": {
@@ -2604,18 +2633,32 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "System.Windows.Forms/4.0.0": {
+      "sha512": "WL3QPG1q88aIWO0JPOlkCeyNE+FK4ufSKY5j6J6qAFQyfCFiiOYxi8RAhev9H0CS/wmKbIK8qr8xZBod85oWKw==",
+      "type": "package",
+      "path": "system.windows.forms/4.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/System.Windows.Forms.dll",
+        "system.windows.forms.4.0.0.nupkg.sha512",
+        "system.windows.forms.nuspec"
+      ]
     }
   },
   "projectFileDependencyGroups": {
     ".NETStandard,Version=v2.1": [
-      "Bonsai.Audio >= 3.0.0-alpha1",
-      "Bonsai.Core >= 3.0.0-alpha1",
-      "Bonsai.Dsp >= 3.0.0-alpha1",
+      "Bonsai.Audio >= 3.0.0-preview1-alpha1",
+      "Bonsai.Core >= 3.0.0-preview1-alpha1",
+      "Bonsai.Dsp >= 3.0.0-preview1-alpha1",
+      "Bonsai.Windows.Input >= 3.0.0-preview1",
       "Microsoft.AspNetCore.Components.WebAssembly >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.Build >= 3.2.1",
       "Microsoft.AspNetCore.Components.WebAssembly.DevServer >= 3.2.1",
       "Microsoft.AspNetCore.Http.Abstractions >= 2.2.0",
-      "System.Net.Http.Json >= 3.2.0"
+      "System.Net.Http.Json >= 3.2.0",
+      "System.Windows.Forms >= 4.0.0"
     ]
   },
   "packageFolders": {
@@ -2658,15 +2701,19 @@
         "dependencies": {
           "Bonsai.Audio": {
             "target": "Package",
-            "version": "[3.0.0-alpha1, )"
+            "version": "[3.0.0-preview1-alpha1, )"
           },
           "Bonsai.Core": {
             "target": "Package",
-            "version": "[3.0.0-alpha1, )"
+            "version": "[3.0.0-preview1-alpha1, )"
           },
           "Bonsai.Dsp": {
             "target": "Package",
-            "version": "[3.0.0-alpha1, )"
+            "version": "[3.0.0-preview1-alpha1, )"
+          },
+          "Bonsai.Windows.Input": {
+            "target": "Package",
+            "version": "[3.0.0-preview1, )"
           },
           "Microsoft.AspNetCore.Components.WebAssembly": {
             "target": "Package",
@@ -2689,6 +2736,10 @@
           "System.Net.Http.Json": {
             "target": "Package",
             "version": "[3.2.0, )"
+          },
+          "System.Windows.Forms": {
+            "target": "Package",
+            "version": "[4.0.0, )"
           }
         },
         "imports": [
@@ -2715,6 +2766,16 @@
       "code": "NU1701",
       "level": "Warning",
       "warningLevel": 1,
+      "message": "Package 'Bonsai.Windows.Input 3.0.0-preview1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Bonsai.Windows.Input",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
       "message": "Package 'openal.redist 2.0.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "openal.redist",
       "targetGraphs": [
@@ -2737,6 +2798,16 @@
       "warningLevel": 1,
       "message": "Package 'OpenTK 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "OpenTK",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Windows.Forms 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Windows.Forms",
       "targetGraphs": [
         ".NETStandard,Version=v2.1"
       ]

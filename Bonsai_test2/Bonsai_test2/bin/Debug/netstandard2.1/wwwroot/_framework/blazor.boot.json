@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Bonsai_test2.dll": "sha256-kU5y1qebHYzUD4wnP2si\/8jYhWrn4QOmrn4COuBD4W4=",
+      "Bonsai_test2.dll": "sha256-dCqRhdK7qG3bpbCWSWeg7pYjLoCdsfY5OkFDjvp0s1w=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -46,6 +46,11 @@
       "Microsoft.Extensions.Logging.Abstractions.dll": "sha256-6gJMwefpsWLHWsEipZp143xn8k2Ea27upnXqjUT6iNI=",
       "System.Reactive.dll": "sha256-GfARLNH1Fy7iaI6W3dRK2jmkuxyyMVoVS2PpBk9uPcA=",
       "System.Runtime.InteropServices.WindowsRuntime.dll": "sha256-3qQLIayyoZ2NAkgoYQTPaMFAfCkuY30vLlPSpaAvxd8=",
+      "Bonsai.Windows.Input.dll": "sha256-vlGQFJZ+oEQbTpNirDStPM0ges86AcRx6e8\/WUvcgDI=",
+      "Bonsai.Core.dll": "sha256-5c6cnZnbjG0JvBeHQOLRG1b+uAp3Je72t38XrWMYREs=",
+      "System.Reflection.Emit.ILGeneration.dll": "sha256-yTznKFXYjwtGYUGUdxYEw8gA1A+IWlMYOncOmAAyJas=",
+      "System.Reflection.Emit.dll": "sha256-4A297N6Xf0UZNMTrY+4COe43Hmcrtxb\/eTiqTJ5M6wA=",
+      "System.CodeDom.dll": "sha256-FwTliQ0DZdjsM2pGhbBJ8+N11S\/RuTn8r3AcBpSaWfI=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-FJ+rEgcx6ljTxwbRXZSUGfrDKpVvOxHCSfNxbnXNn3M=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-oK1Bjv95fH+hSbogUkJE+xDAI203kJG6lL6Sm\/NuPWg=",
       "Microsoft.Extensions.Primitives.dll": "sha256-y\/FyJQOcW2TOcTp7Iuv8brGBzL5ZP0oJdG7ysK+gtKc=",
@@ -59,14 +64,10 @@
       "Microsoft.Extensions.Logging.dll": "sha256-+kkwUt5LUrFrnFcHiSvLP3Ps50UAimB6C5utgehqOo4=",
       "Microsoft.Extensions.Options.dll": "sha256-rvTW0d54uLW0iDMAX30lpmr9f8uHoS3YYkEU5zNGhyc=",
       "Microsoft.JSInterop.dll": "sha256-LqwA2Rpm96Ualk0IhLZar87kfRCyKHzHTeTt2jYhm7M=",
-      "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs=",
-      "Bonsai.Core.dll": "sha256-MJy9XZBA0m8ms5f3YkJI0OY6zeL0J8NI5\/uhs0WugQw=",
-      "System.Reflection.Emit.ILGeneration.dll": "sha256-yTznKFXYjwtGYUGUdxYEw8gA1A+IWlMYOncOmAAyJas=",
-      "System.Reflection.Emit.dll": "sha256-4A297N6Xf0UZNMTrY+4COe43Hmcrtxb\/eTiqTJ5M6wA=",
-      "System.CodeDom.dll": "sha256-FwTliQ0DZdjsM2pGhbBJ8+N11S\/RuTn8r3AcBpSaWfI="
+      "Microsoft.JSInterop.WebAssembly.dll": "sha256-czNf3btAeBW\/vvID5LAfgcsNZ+GM3ssVuPaMflcg0rs="
     },
     "pdb": {
-      "Bonsai_test2.pdb": "sha256-vWkjZWRW0GG9KKCj\/THsJLruSA\/Q4V7YydRgoV2ZUM8="
+      "Bonsai_test2.pdb": "sha256-PZwipuBERw8isXgX\/RxCkttxmYpZr6sGmjletBa+qMk="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",

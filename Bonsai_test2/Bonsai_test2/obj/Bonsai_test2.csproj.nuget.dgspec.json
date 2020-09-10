@@ -41,15 +41,19 @@
           "dependencies": {
             "Bonsai.Audio": {
               "target": "Package",
-              "version": "[3.0.0-alpha1, )"
+              "version": "[3.0.0-preview1-alpha1, )"
             },
             "Bonsai.Core": {
               "target": "Package",
-              "version": "[3.0.0-alpha1, )"
+              "version": "[3.0.0-preview1-alpha1, )"
             },
             "Bonsai.Dsp": {
               "target": "Package",
-              "version": "[3.0.0-alpha1, )"
+              "version": "[3.0.0-preview1-alpha1, )"
+            },
+            "Bonsai.Windows.Input": {
+              "target": "Package",
+              "version": "[3.0.0-preview1, )"
             },
             "Microsoft.AspNetCore.Components.WebAssembly": {
               "target": "Package",
@@ -72,6 +76,10 @@
             "System.Net.Http.Json": {
               "target": "Package",
               "version": "[3.2.0, )"
+            },
+            "System.Windows.Forms": {
+              "target": "Package",
+              "version": "[4.0.0, )"
             }
           },
           "imports": [

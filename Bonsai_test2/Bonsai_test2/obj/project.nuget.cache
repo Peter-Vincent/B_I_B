@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "6/48KTpu9fBcuSuBfJyqkrWJxHMSIdMrXHLDTjEgczSuxtv0Q5PiAGD1jXFeDyIHxqh8GWulrMaDK9PzmazoVA==",
+  "dgSpecHash": "rHGsvXW8SCqxTItZ/1LGup7F4o13po6JgBPeKAbkpV6e6y0DGHbzWU+Gvy+kO+ZgEanOdwAg+QqP/xgKaXIIGg==",
   "success": true,
   "projectFilePath": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\Bonsai_test2.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.audio\\3.0.0-alpha1\\bonsai.audio.3.0.0-alpha1.nupkg.sha512",
-    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.core\\3.0.0-alpha1\\bonsai.core.3.0.0-alpha1.nupkg.sha512",
-    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.dsp\\3.0.0-alpha1\\bonsai.dsp.3.0.0-alpha1.nupkg.sha512",
-    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.system\\3.0.0-alpha1\\bonsai.system.3.0.0-alpha1.nupkg.sha512",
+    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.audio\\3.0.0-preview1-alpha1\\bonsai.audio.3.0.0-preview1-alpha1.nupkg.sha512",
+    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.core\\3.0.0-preview1-alpha1\\bonsai.core.3.0.0-preview1-alpha1.nupkg.sha512",
+    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.dsp\\3.0.0-preview1-alpha1\\bonsai.dsp.3.0.0-preview1-alpha1.nupkg.sha512",
+    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.system\\3.0.0-preview1-alpha1\\bonsai.system.3.0.0-preview1-alpha1.nupkg.sha512",
+    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.windows.input\\3.0.0-preview1\\bonsai.windows.input.3.0.0-preview1.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\microsoft.aspnetcore.components\\3.1.6\\microsoft.aspnetcore.components.3.1.6.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.1.6\\microsoft.aspnetcore.components.analyzers.3.1.6.nupkg.sha512",
@@ -65,9 +66,20 @@
     "C:\\Users\\Murri\\.nuget\\packages\\system.security.principal.windows\\4.7.0\\system.security.principal.windows.4.7.0.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\system.text.encodings.web\\4.7.1\\system.text.encodings.web.4.7.1.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
-    "C:\\Users\\Murri\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\Murri\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
+    "C:\\Users\\Murri\\.nuget\\packages\\system.windows.forms\\4.0.0\\system.windows.forms.4.0.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Bonsai.Windows.Input 3.0.0-preview1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Bonsai.Windows.Input",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",
@@ -94,6 +106,16 @@
       "warningLevel": 1,
       "message": "Package 'OpenTK 3.1.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
       "libraryId": "OpenTK",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'System.Windows.Forms 4.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "System.Windows.Forms",
       "targetGraphs": [
         ".NETStandard,Version=v2.1"
       ]
