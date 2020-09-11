@@ -16,12 +16,25 @@ using System.Reflection;
 using System.Resources;
 using System.Threading.Tasks;
 using System.Xml;
+using System.Reactive.Subjects;
+using Microsoft.AspNetCore.Components.Web;
+using Microsoft.AspNetCore.Components;
 
 namespace Bonsai_test2
 {
     public class Bonsai_code
     {
         public string Summary { get; set; }
+    }
+
+    
+    public class ExternalEventSource<TSource> : Source<TSource>
+    {
+        public ISubject<TSource> Subject { get; } = new Subject<TSource>();
+        public override IObservable<TSource> Generate()
+        {
+            return Subject;
+        }
     }
     public class Bonsai_func
     {
@@ -33,11 +46,15 @@ namespace Bonsai_test2
             value++;
         }
         public Bonsai_code[] bonsai_Codes;
+
+        
+        public ExternalEventSource<KeyboardEventArgs> event_source = new ExternalEventSource<KeyboardEventArgs>();
         
         public void Launch_key()
         {
+             
             WorkflowBuilder workflowBuilder2 = new WorkflowBuilder();
-            var keypress = workflowBuilder2.Workflow.Add(new CombinatorBuilder { Combinator = new KeyDown { } });
+            var keypress = workflowBuilder2.Workflow.Add(new CombinatorBuilder { Combinator = event_source });
             var int_node = workflowBuilder2.Workflow.Add(new CombinatorBuilder { Combinator = new Bonsai.Expressions.Int64Property { Value = 1} });
             var accumulate = workflowBuilder2.Workflow.Add(new CombinatorBuilder { Combinator = new Bonsai.Reactive.Accumulate { } });
             var output   = workflowBuilder2.Workflow.Add(new WorkflowOutputBuilder());
@@ -50,9 +67,9 @@ namespace Bonsai_test2
             observable2().Subscribe(x => value2 = (int)x);
             value2 += 24;
         }
-        public void Launch(string data)
+        public IObservable<Int64> Launch(string data)
         {
-
+            
             WorkflowBuilder workflowBuilder = new WorkflowBuilder();
             using (var reader = XmlReader.Create(new StringReader(data)))
 
@@ -61,8 +78,9 @@ namespace Bonsai_test2
             }
             var workflow =  workflowBuilder.Workflow.Build();
             var observable = Expression.Lambda<Func<IObservable<Int64>>>(workflow).Compile();
-            observable().Subscribe(x => value = (int)x);
-            value += 42;
+            return observable();
+            //observable().Subscribe(x =>  value = (int)x);
+            
         }
     }
 }

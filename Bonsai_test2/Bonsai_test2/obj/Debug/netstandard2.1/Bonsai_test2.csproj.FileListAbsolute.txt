@@ -796,8 +796,6 @@ C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Bonsai_test2.pdb
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\Bonsai.Windows.Input.dll
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\5c6cnZnbjG0JvBeHQOLRG1b_uAp3Je72t38XrWMYREs=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Bonsai.Windows.Input.dll
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\Bonsai.Windows.Input.dll.gz
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Bonsai_test2.csproj.CoreCompileInputs.cache
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\RazorDeclaration\Bonsai_test2.dll
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Bonsai_test2.TagHelpers.input.cache
@@ -812,9 +810,7 @@ C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Razor\Shared\NavMenu.razor.g.cs
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Razor\_Imports.razor.g.cs
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\dCqRhdK7qG3bpbCWSWeg7pYjLoCdsfY5OkFDjvp0s1w=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\vlGQFJZ_oEQbTpNirDStPM0ges86AcRx6e8-WUvcgDI=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\PZwipuBERw8isXgX-RxCkttxmYpZr6sGmjletBa_qMk=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\Bonsai.Windows.Input.dll.gz
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\Bonsai.Windows.Input.dll.br
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\KA2TwqrSXLkV9ZvqsY7jB-yoUx0TJMg7L32s9Gh6bH8=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\System.Windows.Forms.dll
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\C33GyUNw1k3jdn9p5s13BfVkPiZqQK9tNqK7OJ_k4AY=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\wEePh0chD_Ua61KSztmoqvqCEm6MA0LuHtlqwX53kWw=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\i6fXUicK6mfDZrQdRbICG0NKl0oqpKQofk6YWxwIspg=.hash

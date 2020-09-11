@@ -1,76 +1,82 @@
 ﻿@page "/bonsai"
 @inject HttpClient Http
 
+    <div @onkeypress="KeyHandler">
+        
+        <h3>Bonsai (@clean_execute)</h3>
+        <button @onclick="launch_protocol">Launch protocol</button>
+        <button @onclick="class_test">Test class</button>
+        <button @onclick="bonsai_test">Test Bonsai</button>
+        <button @onclick="manual_test">Manual Test</button>
+        <h4>Value counter -- @value</h4>
+        <h5 test_name>Value2 counter -- @value2</h5>
 
-
-
-<h3>Bonsai (@clean_execute)</h3>
-<button @onclick="launch_protocol">Launch protocol</button>
-<button @onclick="class_test">Test class</button>
-<button @onclick="bonsai_test">Test Bonsai</button>
-<button @onclick="manual_test">Manual Test</button>
-<h4>Value counter -- @value</h4>
-<h5>Value2 counter -- @value2</h5>
-
-@if (xml_data.data == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <p>@xml_data.data</p>
-}
-    
-    @code {
-        private string clean_execute = "null";
-        private bool running = false;
-        private void launch_protocol()
+        @if (xml_data.data == null)
         {
-            running = clean_execute.Equals("null");
-            if (running)
+            <p><em>Loading...</em></p>
+        }
+        else
+        {
+            <p>@xml_data.data</p>
+        }
+
+        @code {
+
+
+            private string clean_execute = "null";
+            private bool running = false;
+            public void KeyHandler(KeyboardEventArgs e)
             {
-                clean_execute = "running";
-            }
-            else
-            {
-                clean_execute = "null";
+                testc.event_source.Subject.OnNext(e);
+                class_test();
             }
 
+            private void launch_protocol()
+            {
+                running = clean_execute.Equals("null");
+                if (running)
+                {
+                    clean_execute = "running";
+                }
+                else
+                {
+                    clean_execute = "null";
+                }
+
+            }
+            public int value;
+            private int value2;
+            Bonsai_func testc = new Bonsai_func();
+            private void class_test()
+            {
+                value2 = testc.value2;
+            }
+
+            private void manual_test()
+            {
+
+                testc.Launch_key();
+                value2 = testc.value2;
+            }
+
+            private void bonsai_test()
+            {
+                testc.Launch(xml_data.data).Subscribe(x => { value = (int)x; StateHasChanged(); });
+                //value = testc.value;
+            }
+
+
+            protected override async Task OnInitializedAsync()
+            {
+                xml_data.data = await Http.GetStringAsync("Bonsai_files/timer.bonsai");
+            }
+
+
+            public class xml_data
+            {
+                public static string data { get; set; }
+            }
+
         }
-        private int value;
-        private int value2;
-        Bonsai_func testc = new Bonsai_func();
-        private void class_test()
-        {
-            //testc.Change_val();
-            value = testc.value;
-            value2 = testc.value2;
-        }
 
-        private void manual_test()
-        {
-            testc.Launch_key();
-            value2 = testc.value2;
-        }
-
-        private void bonsai_test()
-        {
-            testc.Launch(xml_data.data);
-            value = testc.value;
-        }
-
-
-        protected override async Task OnInitializedAsync()
-        {
-            xml_data.data = await Http.GetStringAsync("Bonsai_files/keypress.bonsai");
-        }
-
-
-        public class xml_data
-        {
-            public static string data { get; set; }
-        }
-
-    }
-
-
+    </div>
