@@ -45,10 +45,17 @@
                 value2 = testc.value2;
             }
 
+<<<<<<< HEAD
             private void mouse_test()
             {
                 testc.Launch_mouse().Subscribe(x => { mouse = (int)x; StateHasChanged(); });
             }
+=======
+        protected override async Task OnInitializedAsync()
+        {
+            xml_data.data = await Http.GetStringAsync("Bonsai_files/keypress.bonsai");
+        }
+>>>>>>> master
 
             private void bonsai_test()
             {
