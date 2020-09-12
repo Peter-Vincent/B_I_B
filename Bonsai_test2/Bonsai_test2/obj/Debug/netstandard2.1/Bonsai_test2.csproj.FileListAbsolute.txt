@@ -811,6 +811,6 @@ C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Razor\Shared\SurveyPrompt.razor.g.cs
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Razor\_Imports.razor.g.cs
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\System.Windows.Forms.dll
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\C33GyUNw1k3jdn9p5s13BfVkPiZqQK9tNqK7OJ_k4AY=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\wEePh0chD_Ua61KSztmoqvqCEm6MA0LuHtlqwX53kWw=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\i6fXUicK6mfDZrQdRbICG0NKl0oqpKQofk6YWxwIspg=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\rD6R1eMEqO5XYoclEaMTjYQsQt5aT36cT-KAxvW-Lng=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\Ll3ADWEieDVkuuN-8CcrONXhT7LSJfhJ-nuf7cHk3U8=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\JGWu2NFLoEWgKpwgHIzwrklMYHwGv7OcJ1WEaL7tlZ4=.hash

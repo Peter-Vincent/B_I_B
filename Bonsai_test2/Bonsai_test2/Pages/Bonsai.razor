@@ -2,14 +2,14 @@
 @inject HttpClient Http
 
     <div @onkeypress="KeyHandler">
+        <div @onmousemove="mouse_test">
         
-        <h3>Bonsai (@clean_execute)</h3>
-        <button @onclick="launch_protocol">Launch protocol</button>
         <button @onclick="class_test">Test class</button>
         <button @onclick="bonsai_test">Test Bonsai</button>
         <button @onclick="manual_test">Manual Test</button>
-        <h4>Value counter -- @value</h4>
-        <h5 test_name>Value2 counter -- @value2</h5>
+        <h1>Value counter -- @value</h1>
+        <h2>Value2 counter -- @value2</h2>
+        <h3> Mouse locatio -- @mouse</h3>
 
         @if (xml_data.data == null)
         {
@@ -23,29 +23,15 @@
         @code {
 
 
-            private string clean_execute = "null";
-            private bool running = false;
             public void KeyHandler(KeyboardEventArgs e)
             {
                 testc.event_source.Subject.OnNext(e);
                 class_test();
             }
 
-            private void launch_protocol()
-            {
-                running = clean_execute.Equals("null");
-                if (running)
-                {
-                    clean_execute = "running";
-                }
-                else
-                {
-                    clean_execute = "null";
-                }
-
-            }
             public int value;
             private int value2;
+            private int mouse;
             Bonsai_func testc = new Bonsai_func();
             private void class_test()
             {
@@ -57,6 +43,11 @@
 
                 testc.Launch_key();
                 value2 = testc.value2;
+            }
+
+            private void mouse_test()
+            {
+                testc.Launch_mouse().Subscribe(x => { mouse = (int)x; StateHasChanged(); });
             }
 
             private void bonsai_test()
@@ -78,5 +69,5 @@
             }
 
         }
-
+    </div>
     </div>
