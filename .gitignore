@@ -31,4 +31,5 @@ Resources/*.ico
 *.user
 *.suo
 *.exe
+*.cache
 .vs
