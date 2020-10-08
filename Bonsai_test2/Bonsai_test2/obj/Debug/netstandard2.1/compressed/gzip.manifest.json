@@ -1,11 +1,7 @@
 {
   "FilesToCompress": [
     {
-<<<<<<< HEAD
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\rD6R1eMEqO5XYoclEaMTjYQsQt5aT36cT-KAxvW-Lng=.hash",
-=======
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\x0IUN8K5wpDIY1EvJ3xqyRYDC6YY8DoaPkGt8dscaCY=.hash",
->>>>>>> master
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Ru6nukcEv2-L10tpjhpO_BjVUqBDl_tJP5f21yVHD4Y=.hash",
       "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Bonsai_test2.dll",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Bonsai_test2.dll.gz"
     },
@@ -295,11 +291,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/System.CodeDom.dll.gz"
     },
     {
-<<<<<<< HEAD
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Ll3ADWEieDVkuuN-8CcrONXhT7LSJfhJ-nuf7cHk3U8=.hash",
-=======
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\TfngFCY7wSUVrY0fhht3kMfgW_TLxAXL47KmNfH-g_4=.hash",
->>>>>>> master
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\lzERUKgbG9qdBc1bErqmAstwGoDjV_5bhAt-lMIye40=.hash",
       "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\unlinked\\Bonsai_test2.pdb",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/_bin\/Bonsai_test2.pdb.gz"
     },
@@ -324,11 +316,7 @@
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.webassembly.js.gz"
     },
     {
-<<<<<<< HEAD
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\JGWu2NFLoEWgKpwgHIzwrklMYHwGv7OcJ1WEaL7tlZ4=.hash",
-=======
-      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\vdAa-ij3fYjIA7iwAz0zGFy6ChMv8c4VTr2Hu5JcPLA=.hash",
->>>>>>> master
+      "InputSource": "obj\\Debug\\netstandard2.1\\integrity\\Q9JgbwRolrDB1H_2KAWl-IBA4cPM1Qp9m9onl2OSdkc=.hash",
       "Source": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\obj\\Debug\\netstandard2.1\\blazor\\blazor.boot.json",
       "Target": "obj\\Debug\\netstandard2.1\\compressed\\_framework\/blazor.boot.json.gz"
     }

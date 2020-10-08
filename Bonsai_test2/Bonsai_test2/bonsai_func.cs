@@ -45,8 +45,18 @@ namespace Bonsai_test2
         {
             value++;
         }
-        public Bonsai_code[] bonsai_Codes;
+        //public Bonsai_code[] bonsai_Codes;
 
+        public void Launch_screen(string data)
+        {
+            WorkflowBuilder workflowBuilder = new WorkflowBuilder();
+            using (var reader = XmlReader.Create(new StringReader(data)))
+
+            {
+                workflowBuilder = (WorkflowBuilder)WorkflowBuilder.Serializer.Deserialize(reader);
+            }
+            workflowBuilder.Workflow.Build();
+        }
 
         /// <summary>
         /// Code to get dynamic updating of the mous location and clicks

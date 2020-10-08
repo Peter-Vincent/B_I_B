@@ -7,17 +7,18 @@
         <button @onclick="class_test">Test class</button>
         <button @onclick="bonsai_test">Test Bonsai</button>
         <button @onclick="manual_test">Manual Test</button>
+        <button @onclick="screen_test">Screen Test</button>
         <h1>Value counter -- @value</h1>
         <h2>Value2 counter -- @value2</h2>
-        <h3> Mouse locatio -- @mouse</h3>
+        <h3> Mouse location -- @mouse</h3>
 
-        @if (xml_data.data == null)
+        @if (xml_data.timer_data == null)
         {
             <p><em>Loading...</em></p>
         }
         else
         {
-            <p>@xml_data.data</p>
+            <p>@xml_data.timer_data</p>
         }
 
         @code {
@@ -30,12 +31,18 @@
             }
 
             public int value;
-            private int value2;
-            private int mouse;
+            public int value2;
+            public double mouse;
+            public double mouse_check;
             Bonsai_func testc = new Bonsai_func();
             private void class_test()
             {
                 value2 = testc.value2;
+            }
+
+            private void screen_test()
+            {
+                testc.Launch_screen(xml_data.screen_data);
             }
 
             private void manual_test()
@@ -45,34 +52,31 @@
                 value2 = testc.value2;
             }
 
-<<<<<<< HEAD
-            private void mouse_test()
+            private void mouse_test(MouseEventArgs e)
             {
-                testc.Launch_mouse().Subscribe(x => { mouse = (int)x; StateHasChanged(); });
-            }
-=======
-        protected override async Task OnInitializedAsync()
-        {
-            xml_data.data = await Http.GetStringAsync("Bonsai_files/keypress.bonsai");
-        }
->>>>>>> master
+                testc.mouse_move.Subject.OnNext(e);
 
-            private void bonsai_test()
-            {
-                testc.Launch(xml_data.data).Subscribe(x => { value = (int)x; StateHasChanged(); });
-                //value = testc.value;
             }
 
 
             protected override async Task OnInitializedAsync()
             {
-                xml_data.data = await Http.GetStringAsync("Bonsai_files/timer.bonsai");
+                xml_data.timer_data = await Http.GetStringAsync("Bonsai_files/timer.bonsai");
+                xml_data.screen_data = await Http.GetStringAsync("Bonsai_files/screen.bonsai");
+            }
+
+            private void bonsai_test()
+            {
+                testc.Launch(xml_data.timer_data).Subscribe(x => { value = (int)x; StateHasChanged(); });
+                testc.Launch_mouse().Subscribe(x => { mouse = (double)x.ScreenX; StateHasChanged(); });
+                //value = testc.value;
             }
 
 
             public class xml_data
             {
-                public static string data { get; set; }
+                public static string timer_data { get; set; }
+                public static string screen_data { get; set; }
             }
 
         }
