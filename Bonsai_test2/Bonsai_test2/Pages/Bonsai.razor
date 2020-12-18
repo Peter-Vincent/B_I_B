@@ -1,5 +1,7 @@
 ﻿@page "/bonsai"
 @inject HttpClient Http
+@inject IJSRuntime JS;
+
 
     <div @onkeypress="KeyHandler">
         <div @onmousemove="mouse_test">
@@ -8,9 +10,12 @@
         <button @onclick="bonsai_test">Test Bonsai</button>
         <button @onclick="manual_test">Manual Test</button>
         <button @onclick="screen_test">Screen Test</button>
+        <button @onclick="audio_test">Audio Test</button>
         <h1>Value counter -- @value</h1>
         <h2>Value2 counter -- @value2</h2>
         <h3> Mouse location -- @mouse</h3>
+        <button @onclick="cpp_compile_test">Call OpenCV</button>
+        <h3>JS Interop for Open CV -- @open_cv_value</h3>
 
         @if (xml_data.timer_data == null)
         {
@@ -34,10 +39,22 @@
             public int value2;
             public double mouse;
             public double mouse_check;
+            public double open_cv_value;
             Bonsai_func testc = new Bonsai_func();
             private void class_test()
             {
                 value2 = testc.value2;
+            }
+
+
+            private async Task cpp_compile_test()
+            {
+                value = await JS.InvokeAsync<int>("cv.add", 23, 23);
+            }
+
+            private void audio_test()
+            {
+                testc.Play_tone(xml_data.audio_data);
             }
 
             private void screen_test()
@@ -63,6 +80,7 @@
             {
                 xml_data.timer_data = await Http.GetStringAsync("Bonsai_files/timer.bonsai");
                 xml_data.screen_data = await Http.GetStringAsync("Bonsai_files/screen.bonsai");
+                xml_data.audio_data = await Http.GetStringAsync("Bonsai_files/audio.bonsai");
             }
 
             private void bonsai_test()
@@ -77,6 +95,7 @@
             {
                 public static string timer_data { get; set; }
                 public static string screen_data { get; set; }
+                public static string audio_data { get; set; }
             }
 
         }

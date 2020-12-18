@@ -19,6 +19,8 @@ using System.Xml;
 using System.Reactive.Subjects;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components;
+using System.Runtime.InteropServices;
+
 
 namespace Bonsai_test2
 {
@@ -40,6 +42,7 @@ namespace Bonsai_test2
     {
         public int value = 0;
         public int value2 = 0;
+        public int value_cpp = 0;
 
         public void Change_val()
         {
@@ -47,7 +50,7 @@ namespace Bonsai_test2
         }
         //public Bonsai_code[] bonsai_Codes;
 
-        public void Launch_screen(string data)
+        public void Play_tone(string data)
         {
             WorkflowBuilder workflowBuilder = new WorkflowBuilder();
             using (var reader = XmlReader.Create(new StringReader(data)))
@@ -56,6 +59,23 @@ namespace Bonsai_test2
                 workflowBuilder = (WorkflowBuilder)WorkflowBuilder.Serializer.Deserialize(reader);
             }
             workflowBuilder.Workflow.Build();
+        }
+
+        public void Launch_screen(string data)
+        {
+            /*
+            WorkflowBuilder workflowBuilder = new WorkflowBuilder();
+            using (var reader = XmlReader.Create(new StringReader(data)))
+
+            {
+                workflowBuilder = (WorkflowBuilder)WorkflowBuilder.Serializer.Deserialize(reader);
+            }
+            workflowBuilder.Workflow.Build();
+            */
+            foreach (var screen in System.Windows.Forms.Screen.AllScreens)
+            {
+                Console.WriteLine('1');
+            }
         }
 
         /// <summary>
@@ -112,5 +132,15 @@ namespace Bonsai_test2
             //observable().Subscribe(x =>  value = (int)x);
             
         }
+
+        [DllImport("myclib", CallingConvention = CallingConvention.Cdecl)]
+        private static extern int cpp_add(int a, int b);
+        public int Cpp_call()
+        {
+            value_cpp = cpp_add(21, 21);
+            return value_cpp;
+        }
+
+
     }
 }

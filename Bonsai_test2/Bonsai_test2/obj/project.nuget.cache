@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "byQ9KXcgGFQ0OFEid8/GpzsOIEUbLqHt7QGf6s5ML3G9M/n0fG63HVRsERfI8h8DnJoEMpDhwmrckhyVg/3Ayw==",
+  "dgSpecHash": "k6fDOXPlxWQHMnGKCKOV6YOaGCmEWxLAVRnp7rOjwJLL8Q8MkE8miKJwNSemoXteo2sey9qOXkfNFfSYj50aTQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Murri\\Documents\\B_I_B\\Bonsai_test2\\Bonsai_test2\\Bonsai_test2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Murri\\.nuget\\packages\\bonsai.audio\\3.0.0-preview1-alpha1\\bonsai.audio.3.0.0-preview1-alpha1.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\bonsai.core\\3.0.0-preview1-alpha1\\bonsai.core.3.0.0-preview1-alpha1.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\bonsai.dsp\\3.0.0-preview1-alpha1\\bonsai.dsp.3.0.0-preview1-alpha1.nupkg.sha512",
+    "C:\\Users\\Murri\\.nuget\\packages\\bonsai.dsp.design\\3.0.0-preview1\\bonsai.dsp.design.3.0.0-preview1.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\bonsai.system\\3.0.0-preview1-alpha1\\bonsai.system.3.0.0-preview1-alpha1.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\bonsai.windows.input\\3.0.0-preview1\\bonsai.windows.input.3.0.0-preview1.nupkg.sha512",
     "C:\\Users\\Murri\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.1.6\\microsoft.aspnetcore.authorization.3.1.6.nupkg.sha512",
@@ -70,6 +71,16 @@
     "C:\\Users\\Murri\\.nuget\\packages\\system.windows.forms\\4.0.0\\system.windows.forms.4.0.0.nupkg.sha512"
   ],
   "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Bonsai.Dsp.Design 3.0.0-preview1' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETStandard,Version=v2.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Bonsai.Dsp.Design",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.1"
+      ]
+    },
     {
       "code": "NU1701",
       "level": "Warning",

@@ -814,6 +814,17 @@ C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\System.Windows.Forms.dll
 =======
 >>>>>>> master
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\Ru6nukcEv2-L10tpjhpO_BjVUqBDl_tJP5f21yVHD4Y=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\lzERUKgbG9qdBc1bErqmAstwGoDjV_5bhAt-lMIye40=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\Q9JgbwRolrDB1H_2KAWl-IBA4cPM1Qp9m9onl2OSdkc=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Windows.Forms.dll
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Security.dll
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Windows.Forms.dll.gz
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\wwwroot\_framework\_bin\System.Security.dll.gz
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\3sKneTQjj2WAbultHxt7vOzRqXSOneU7gTlvJrrlfPQ=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\41TpUQyckiTriCG3V_aBcmQ1N7mU0abc1TlRA747tNs=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Windows.Forms.dll.gz
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Security.dll.gz
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Windows.Forms.dll.br
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Security.dll.br
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\Bonsai.Dsp.Design.dll
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\F2S3zdmGzkI08YfBQX6rdnvd_Htxih5cx5MqaZQ_klc=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\qxfViTMffhgn05TImDlUliuxzR_HjTe5nE7iBAKjYwA=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\NKexg44gM81FU7ijb7iGs8cTLjkTFRw_XjN2aSGORTo=.hash
