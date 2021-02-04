@@ -3,6 +3,7 @@
 @inject IJSRuntime JS;
 
 
+
     <div @onkeypress="KeyHandler">
         <div @onmousemove="mouse_test">
         
@@ -10,7 +11,6 @@
         <button @onclick="bonsai_test">Test Bonsai</button>
         <button @onclick="manual_test">Manual Test</button>
         <button @onclick="screen_test">Screen Test</button>
-        <button @onclick="audio_test">Audio Test</button>
         <h1>Value counter -- @value</h1>
         <h2>Value2 counter -- @value2</h2>
         <h3> Mouse location -- @mouse</h3>
@@ -39,7 +39,7 @@
             public int value2;
             public double mouse;
             public double mouse_check;
-            public double open_cv_value;
+            public int open_cv_value;
             Bonsai_func testc = new Bonsai_func();
             private void class_test()
             {
@@ -49,13 +49,9 @@
 
             private async Task cpp_compile_test()
             {
-                value = await JS.InvokeAsync<int>("cv.add", 23, 23);
+                open_cv_value = await JS.InvokeAsync<int>("exampleJsFunctions.add_numbers", 63, 43);
             }
 
-            private void audio_test()
-            {
-                testc.Play_tone(xml_data.audio_data);
-            }
 
             private void screen_test()
             {

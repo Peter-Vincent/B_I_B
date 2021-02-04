@@ -1,0 +1,30 @@
+﻿@page "/bonvision"
+@inject IJSRuntime JS
+    <div @onmousemove="mouse_test">
+        <h1>Bonvision</h1>
+        <button type="button" class="btn btn-primary" @onclick="SetCanvas">
+            Update canvas
+        </button>
+        
+        <canvas @ref=MainCanvas id="glCanvas" width="1280" height="800"></canvas>
+        <h3> Mouse location -- @mouse</h3>
+
+
+        @code {
+            ElementReference MainCanvas;
+            Bonsai_func Bonsai_Logic = new Bonsai_func();
+            public double mouse;
+            public async Task SetCanvas()
+            {
+                Bonsai_Logic.Launch_mouse().Subscribe(x => { mouse = (double)x.ScreenX; StateHasChanged(); });
+                await JS.InvokeVoidAsync(
+                        "exampleJsFunctions.setCanvas", MainCanvas);
+            }
+            private void mouse_test(MouseEventArgs e)
+            {
+                Bonsai_Logic.mouse_move.Subject.OnNext(e);
+
+            }
+
+        }
+    </div>

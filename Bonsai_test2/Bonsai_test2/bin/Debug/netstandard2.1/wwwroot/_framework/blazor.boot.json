@@ -6,7 +6,7 @@
   "linkerEnabled": false,
   "resources": {
     "assembly": {
-      "Bonsai_test2.dll": "sha256-F2S3zdmGzkI08YfBQX6rdnvd+Htxih5cx5MqaZQ+klc=",
+      "Bonsai_test2.dll": "sha256-nSCGOfDp+NJLWE5t7EaKEyPrK2GK7nhld\/AIqz8eITs=",
       "System.Net.Http.Json.dll": "sha256-99dseBOagY3mzu5Y8Eqm8gRI+o8QbbCp7R2Ew9bQ+5E=",
       "System.Buffers.dll": "sha256-ZxXy75PYbzJxNfAc\/SAP1nUYm4gt1jSaOpFnBb9m85M=",
       "mscorlib.dll": "sha256-BaZPMj95+YNe3G4ckTGD6szZFwZeA2MOHn91zTGKDeU=",
@@ -68,7 +68,7 @@
       "System.CodeDom.dll": "sha256-FwTliQ0DZdjsM2pGhbBJ8+N11S\/RuTn8r3AcBpSaWfI="
     },
     "pdb": {
-      "Bonsai_test2.pdb": "sha256-qxfViTMffhgn05TImDlUliuxzR+HjTe5nE7iBAKjYwA="
+      "Bonsai_test2.pdb": "sha256-H97HLa3EdvGQDEbUv4YkpIBOWiN+QCh47QIAi\/0GhLg="
     },
     "runtime": {
       "dotnet.3.2.0.js": "sha256-mPoqx7XczFHBWk3gRNn0hc9ekG1OvkKY4XiKRY5Mj5U=",
