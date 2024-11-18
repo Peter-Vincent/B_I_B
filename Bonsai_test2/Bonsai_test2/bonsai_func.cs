@@ -20,7 +20,8 @@ using System.Reactive.Subjects;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components;
 using System.Runtime.InteropServices;
-
+using System.Reactive.Linq;
+using Bonsai.WebDsp;
 
 namespace Bonsai_test2
 {
@@ -50,16 +51,6 @@ namespace Bonsai_test2
         }
         //public Bonsai_code[] bonsai_Codes;
 
-        public void Play_tone(string data)
-        {
-            WorkflowBuilder workflowBuilder = new WorkflowBuilder();
-            using (var reader = XmlReader.Create(new StringReader(data)))
-
-            {
-                workflowBuilder = (WorkflowBuilder)WorkflowBuilder.Serializer.Deserialize(reader);
-            }
-            workflowBuilder.Workflow.Build();
-        }
 
         public void Launch_screen(string data)
         {
@@ -82,20 +73,20 @@ namespace Bonsai_test2
         /// Code to get dynamic updating of the mous location and clicks
         /// </summary>
         public ExternalEventSource<MouseEventArgs> mouse_move = new ExternalEventSource<MouseEventArgs>();
+        public WebFunctionGenerator FunctionGenerator = new WebFunctionGenerator() { BufferLength=16, SampleRate = 100 };
 
         public IObservable<MouseEventArgs> Launch_mouse()
         {
             WorkflowBuilder workflowBuilderMouse = new WorkflowBuilder();
-            var mouse = workflowBuilderMouse.Workflow.Add(new CombinatorBuilder { Combinator = mouse_move });
+            //var mouse = workflowBuilderMouse.Workflow.Add(new CombinatorBuilder { Combinator = mouse_move });
+            var mouse = workflowBuilderMouse.Workflow.Add(new CombinatorBuilder { Combinator = FunctionGenerator });
             var output = workflowBuilderMouse.Workflow.Add(new WorkflowOutputBuilder());
 
             workflowBuilderMouse.Workflow.AddEdge(mouse, output, new ExpressionBuilderArgument());
             var workflow = workflowBuilderMouse.Workflow.Build();
-            var observable = Expression.Lambda<Func<IObservable<MouseEventArgs>>>(workflow).Compile();
-            return observable();
+            var observable = Expression.Lambda<Func<IObservable<float[]>>>(workflow).Compile();
+            return observable().Select(buffer=> new MouseEventArgs());
         }
-
-
         /// <summary>
         /// Manual bonsai code to run the keyboard
         /// </summary>
@@ -116,6 +107,8 @@ namespace Bonsai_test2
             var observable2 = Expression.Lambda<Func<IObservable<Int64>>>(workflow2).Compile();
             observable2().Subscribe(x => value2 = (int)x);
             value2 += 24;
+
+            
         }
         public IObservable<Int64> Launch(string data)
         {
@@ -133,13 +126,6 @@ namespace Bonsai_test2
             
         }
 
-        [DllImport("myclib", CallingConvention = CallingConvention.Cdecl)]
-        private static extern int cpp_add(int a, int b);
-        public int Cpp_call()
-        {
-            value_cpp = cpp_add(21, 21);
-            return value_cpp;
-        }
 
 
     }

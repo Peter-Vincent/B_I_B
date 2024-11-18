@@ -825,6 +825,12 @@ C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Windows.Forms.dll.br
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\compressed\_framework\_bin\System.Security.dll.br
 C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\Bonsai.Dsp.Design.dll
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\F2S3zdmGzkI08YfBQX6rdnvd_Htxih5cx5MqaZQ_klc=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\qxfViTMffhgn05TImDlUliuxzR_HjTe5nE7iBAKjYwA=.hash
-C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\NKexg44gM81FU7ijb7iGs8cTLjkTFRw_XjN2aSGORTo=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Opencv.razor.g.cs
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Razor\Pages\Opencv.razor.g.cs
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\RazorDeclaration\Pages\Bonvision.razor.g.cs
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\Razor\Pages\Bonvision.razor.g.cs
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\Blazor.Extensions.Canvas.JS.dll
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\bin\Debug\netstandard2.1\Blazor.Extensions.Canvas.dll
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\nSCGOfDp_NJLWE5t7EaKEyPrK2GK7nhld-AIqz8eITs=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\H97HLa3EdvGQDEbUv4YkpIBOWiN_QCh47QIAi-0GhLg=.hash
+C:\Users\Murri\Documents\B_I_B\Bonsai_test2\Bonsai_test2\obj\Debug\netstandard2.1\integrity\eIZMW5gh4aIIUYUP4vqVUwpitK3zG28EgpQkHRifGCw=.hash

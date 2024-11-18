@@ -38,6 +38,10 @@
       "frameworks": {
         "netstandard2.1": {
           "dependencies": {
+            "Blazor.Extensions.Canvas": {
+              "target": "Package",
+              "version": "[1.1.0-preview1, )"
+            },
             "Bonsai.Audio": {
               "target": "Package",
               "version": "[3.0.0-preview1-alpha1, )"
